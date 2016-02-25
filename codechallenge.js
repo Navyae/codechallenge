@@ -1,6 +1,7 @@
 
 
   if (Meteor.isClient) {
+
   Template.hello.rendered = function() {
 
      $( "#sprice" ).slider({
@@ -40,7 +41,6 @@
       },
 
   });
-
 
   }
 

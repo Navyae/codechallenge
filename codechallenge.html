@@ -1,0 +1,117 @@
+  <head>
+    <title>codechallenge</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+
+    {{> hello}}
+
+  </body>
+
+  <template name="hello">
+    <div class="s">
+      <div class="s-t">
+
+      </div>
+      <div class="s-i">
+        <div class="s-i-o">
+          <div class="s-i-f">
+            <span class="s-i-f-op">  Describe Your Perfect</span>
+            <span class="s-i-f-fb"> {{city}}, KS</span>
+            <span class="s-i-f-op">  Home</span>
+            </div>
+        </div>
+      </div>
+      <div class="s-pick">
+        <div class="s-pick-t">
+        <div class="s-pick-t-l">Pick a Property Type</div>
+        <div class="s-pick-t-r">25 Homes For Sale . {{city}}, KS</div>
+        </div>
+        <div class="s-pick-check">
+          <div class="s-pick-check-button">
+            <div class="s-pick-check-button-ic">
+              <i class="fa fa-home" style="font-size:25px; margin-top:5px;"></i>
+
+          </div>
+            <div class="s-pick-check-button-tx">
+              House <div class="s-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
+            </div>
+          </div>
+
+          <div class="s-pick-check-button">
+            <div class="s-pick-check-button-ic">
+
+          <i class="fa fa-home" style="font-size:25px; margin-top:5px;"></i>
+
+          </div>
+            <div class="s-pick-check-button-tx">
+              Condo <div class="s-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
+            </div>
+          </div>
+
+          <div class="s-pick-check-button">
+            <div class="s-pick-check-button-ic">
+            <i class="fa fa-home" style="font-size:25px; margin-top:5px;"></i>
+
+          </div>
+            <div class="s-pick-check-button-tx">
+              Apartment <div class="s-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
+            </div>
+          </div>
+
+          <div class="s-pick-check-button" style="margin:0px !important">
+            <div class="s-pick-check-button-ic">
+            <i class="fa fa-building" style="font-size:25px; margin-top:5px;"></i>
+
+          </div>
+            <div class="s-pick-check-button-tx">
+              Townhome <div class="s-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="s-pick">
+            <div class="s-pick-t">
+          <div class="s-pick-t-l">Price Range</div>
+          </div>
+          <div class="s-pr">
+            <div id="sprice"></div>
+            <div class="s-pr-av">
+              <input type="text" id="average" style="border:0; color:#000000; font-weight:bold; text-align:center; text-shadow: 0 0 5px rgba(0,0,0,0.2);">
+
+            </div>
+          </div>
+
+        </div>
+        <div class="s-dd">
+          <div class="s-dd-t">
+            <div class="s-dd-t-l">
+              Must Haves
+            </div>
+            <div class="s-dd-t-r">
+              Want more Advanced Filters?
+            <span class="s-dd-t-r-bld">
+              Click Here
+            </span>
+            </div>
+
+          </div>
+          <div class="s-dd-m"><div class="s-dd-m-t">Bedrooms <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
+          <div class="s-dd-m"><div class="s-dd-m-t">Bathrooms <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
+          <div class="s-dd-m"><div class="s-dd-m-t">Square Feet <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
+          <div class="s-dd-m"><div class="s-dd-m-t">Lot Size <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
+        </div>
+        <div class="s-fyh"><div class="s-fyh-t">Find Your Home  <i class="fa fa-angle-right"></i></div></div>
+        <div class="s-cs"> <div class="s-cs-t"> Clear Selection  <i class="fa fa-times"></i></div></div>
+
+    </div>
+  <!--  <button>Click Me</button>
+    <p>You've pressed the button {{counter}} times.</p>-->
+  </template>

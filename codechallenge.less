@@ -1,0 +1,287 @@
+  .s{
+    //complete module
+    width:680px;
+    height:550px;
+    border: 1px solid #ccc;
+    &-t{
+      //Title
+      width:inherit;
+      height:45px;
+      background-color: #000000;
+      border-top: 3px solid #44b244;
+     }
+     &-i{
+       //image
+       width:inherit;
+       height:105px;
+       background-image: url('https://pixabay.com/static/uploads/photo/2014/04/05/11/09/house-314837_960_720.jpg');
+       background-color: #ccc;
+       background-size: 680px 105px;
+       &-o{
+         width: inherit;
+         height: inherit;
+         background-color: rgba(68,178,68,0.75);
+       }
+       &-f{
+         height:30px;
+         font-family: HelveticaNeue;
+         color:  #ffffff;
+         padding:6%;
+         font-size: 30px;/* Approximation due to font substitution */
+         font-weight: 100;
+         line-height: 18px;/* Approximation due to font substitution */
+         text-align: center;
+
+       &-op{
+         opacity: 0.7;
+       }
+       &-fb{
+         font-weight: 700;
+       }
+     }
+
+     }
+     &-pick{
+       //container for checkbox buttons
+       width: 640px;
+       height: 105px;
+       border-bottom: 1px solid #ccc;
+       margin-left: 20px;
+       &-t{
+         width: inherit;
+         height: 33px;
+         font-family: HelveticaNeue;
+         font-weight: 300;
+         color:  #000;
+         text-shadow: 0 0 5px rgba(0,0,0,0.2);
+         padding-top: 5px;
+         &-l{
+           float: left;
+           font-size: 18px;/* Approximation due to font substitution */
+
+         }
+         &-r{
+           float: right;
+           font-size: 16px;/* Approximation due to font substitution */
+
+
+         }
+       }
+       &-check{
+         padding-top: 5px;
+         width: inherit;
+         height: 70px;
+         &-button{
+           border-radius: 5px;
+           border: 1px solid #ccc;
+           background-color:  #f2f2f2;
+           width: 140px;
+           height: 38px;
+           padding-top: 5px;
+           padding-left: 5px;
+           display: inline-block;
+           margin-right: 17px;
+           float: left;
+           cursor: pointer;
+           &:hover{
+             background-color:  #acacac;;
+           }
+           &:hover .s-pick-check-button-ic{
+             color: #fff;
+           }
+           &:hover .s-pick-check-button-tx{
+             color: #fff;
+           }
+           &-ic{
+            float: left;
+            margin-right: 10px;
+            width:25px;
+            height:25px;
+            display: block;
+           }
+           &-tx{
+             padding-top: 10px;
+             margin-left: 5px;
+             font-family: HelveticaNeue;
+             color:  #000000;
+             font-size: 14px;/* Approximation due to font substitution */
+             font-weight: 300;
+
+           }
+           &-chec{
+             //check box rectangle
+             border-radius: 5px;
+             border-width: 1px;
+             border-color:  #cccccc;
+             border-style: solid;
+             background-color:  #ffffff;
+             width: 18px;
+             height: 18px;
+             display: block;
+             float: right;
+             margin-right: 10px;
+
+             }
+           }
+         }
+       }
+     &-pr{
+      // container for price range slider
+       padding: 10px;
+       &-av{
+         border-radius: 5px;
+         border: 1px solid #ebebeb;
+         background-color:  #ffffff;
+         width: 138px;
+         height: 23px;
+         margin-top: 17px;
+       }
+     }
+     &-dd{
+       //container for drop down menu
+       width: inherit;
+       height: 105px;
+       border-bottom: 1px solid #ccc;
+       &-t{
+         width: inherit;
+         height: 33px;
+         font-family: HelveticaNeue;
+         font-weight: 300;
+         color:  #000;
+         text-shadow: 0 0 5px rgba(0,0,0,0.2);
+         padding-top: 5px;
+         margin-left: 20px;
+         &-l{
+           float: left;
+           font-size: 18px;/* Approximation due to font substitution */
+
+         }
+         &-r{
+           float: right;
+           font-size: 12px;/* Approximation due to font substitution */
+           margin-right: 5%;
+           &-bld{
+
+             font-weight: 700;
+           }
+         }
+
+     }
+     &-m{
+       border-radius: 5px;
+       border:1px solid #ccc;
+       box-sizing: border-box;
+       background-color:  #f2f2f2;
+       width: 145px;
+       height: 40px;
+       display: inline-block;
+       margin-left: 17px;
+       text-align: left;
+       padding-top: 8px;
+       padding-left: 15px;
+       &:hover{
+         background-color:  #acacac;
+       }
+       &:hover .s-dd-m-t {
+         color: #fff;
+       }
+       &:hover .i{
+         color: #fff;
+       }
+       &-t{
+         font-family: HelveticaNeue;
+         color:  #000000;
+         font-size: 16px;/* Approximation due to font substitution */
+         font-weight: 300;
+
+       }
+     }
+  }
+  &-cs{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #cccccc;
+    box-sizing: border-box;
+    background-color:  #acacac;
+    width: 145px;
+    height: 40px;
+    float: right;
+    display: inline-block;
+    margin: 20px;
+    padding-top: 10px;
+    text-align: center;
+    &-t{
+      font-family: HelveticaNeue;
+      color:  #ffffff;
+      font-size: 14px;/* Approximation due to font substitution */
+      font-weight: 400;
+    }
+
+  }
+  &-fyh{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #cccccc;
+    box-sizing: border-box;
+    background-color:  #44b244;
+    width: 200px;
+    height: 40px;
+    float:right;
+    display: inline-block;
+    margin: 20px;
+    padding-top: 10px;
+    text-align: center;
+    &-t{
+      font-family: HelveticaNeue;
+      color:  #ffffff;
+      font-size: 14px;/* Approximation due to font substitution */
+      font-weight: 700;
+    }
+  }
+  }
+// slider css changes as per requirement
+   .ui-slider .ui-slider-handle{
+     border-radius: 50%;
+     border:1px solid #959595 !important;
+     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.35) !important;
+     width: 28px !important;
+     height: 28px !important;
+  }
+  .ui-widget-content .ui-state-default{
+    background-color: #fff !important;
+  }
+
+  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background: #fff !important;
+  }
+  .ui-slider-horizontal {
+
+    width: 605px !important;
+    height: 5px !important;
+  }
+  .ui-widget-header{
+    background:  #44b244 !important;
+
+  }
+
+  .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    background-color: #fff !important;
+  }
+
+  .ui-slider-horizontal .ui-slider-handle {
+    top: -12px !important;
+  }
+  .ui-state-focus{
+    outline: none !important;
+  }
+  .highlight {
+      font-family:Open Sans Italic;
+      font-size: 12px;
+      color: white;
+      border-radius: 20px 20px 20px 20px;
+      background: #86b3c1;
+      padding: 3px 10px;
+      text-align: left;
+  }

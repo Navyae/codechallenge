@@ -16,7 +16,7 @@
           var pol = $(this).find(".ui-slider-handle:first").position().left;
           var por=$(this).find(".ui-slider-handle:last").position().left;
           var po = (pol+por)/2;
-         $( "#average" ).val( "$" + po +" "+"Average" );
+         $( "#average" ).val( "$" + ave +" "+"Average" );
          $('.s-pr-caret').css({"position": "absolute","left": po,'display':'block'});
 
        }

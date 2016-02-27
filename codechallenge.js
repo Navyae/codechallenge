@@ -15,7 +15,7 @@
           var ave= ad/2;
           var pol = $(this).find(".ui-slider-handle").offset().left;
          $( "#average" ).val( "$" + ave +" "+"Average" );
-         $('.s-pr-av').css({"position": "absolute","left": pol});
+         $('.s-pr-caret').css({"position": "absolute","left": pol});
 
        }
      });

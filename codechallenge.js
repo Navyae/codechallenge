@@ -13,15 +13,15 @@
        slide: function( event, ui ) {
          var ad= ui.values[ 0 ] + ui.values[ 1 ];
           var ave= ad/2;
-          var pol = $(this).find(".ui-slider-handle").offset().left;
-         $( "#average" ).val( "$" + ave +" "+"Average" );
-         $('.s-pr-caret').css({"position": "absolute","left": pol});
+          var pol = $(this).find(".ui-slider-handle:first").position().left;
+          var por=$(this).find(".ui-slider-handle:last").position().left;
+          var po = (pol+por)/2;
+         $( "#average" ).val( "$" + po +" "+"Average" );
+         $('.s-pr-caret').css({"position": "absolute","left": po,'display':'block'});
 
        }
      });
-     var add= $( "#sprice" ).slider( "values", 0 ) + $( "#slider-range" ).slider( "values", 1 )
-     var av1= add/2;
-     $( "#average" ).val( "$" + av1 +" "+ "Average");
+    $('.s-pr-caret').css({'display':'none'});
 
 
    };

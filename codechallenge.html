@@ -16,86 +16,88 @@
   </body>
 
   <template name="hello">
-    <div class="s">
+    <div class="module">
       <!--title-->
-      <div class="s-t">
-        <div class="s-t-bx">
+      <div class="module-t">
+        <div class="module-t-bx">
         </div>
-        <div class="s-t-text">
+        <div class="module-t-text">
           Find the home you are looking for
         </div>
       </div>
       <!--image-->
-      <div class="s-i">
-        <div class="s-i-o">
-          <div class="s-i-f">
-            <span class="s-i-f-op">  Describe Your Perfect</span>
-            <span class="s-i-f-fb">Wichita, KS</span>
-            <span class="s-i-f-op">  Home</span>
+      <div class="module-i">
+        <div class="module-i-o">
+          <div class="module-i-f">
+            <span class="module-i-f-op">  Describe Your Perfect</span>
+            <span class="module-i-f-fb">Wichita, KS</span>
+            <span class="module-i-f-op">  Home</span>
             </div>
         </div>
       </div>
       <!-- check bpx container-->
-      <div class="s-pick">
-        <div class="s-pick-t">
-        <div class="s-pick-t-l">Pick a Property Type</div>
-        <div class="s-pick-t-r">25 Homes For Sale . Wichita, KS</div>
+      <div class="module-pick">
+        <div class="module-pick-t">
+        <div class="module-pick-t-l">Pick a Property Type</div>
+        <div class="module-pick-t-r">25 Homes For Sale . Wichita, KS</div>
         </div>
-        <div class="s-pick-check">
-          <div class="s-pick-check-button">
-            <div class="s-pick-check-button-ic">
+        <div class="module-pick-check">
+            <!--check button for house -->
+          <div class="module-pick-check-button">
+            <div class="module-pick-check-button-ic">
               <i class="fa fa-home" style="font-size:25px; margin-top:5px;"></i>
 
           </div>
 
-            <div class="s-pick-check-button-tx">
+            <div class="module-pick-check-button-tx">
               <!--check box -->
-              House <div class="s-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
+              House <div class="module-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
             </div>
           </div>
-
-          <div class="s-pick-check-button">
-            <div class="s-pick-check-button-ic">
+            <!--check button for Condo -->
+          <div class="module-pick-check-button">
+            <div class="module-pick-check-button-ic">
 
           <i class="fa fa-home" style="font-size:25px; margin-top:5px;"></i>
 
           </div>
-            <div class="s-pick-check-button-tx">
-              Condo <div class="s-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
+            <div class="module-pick-check-button-tx">
+              Condo <div class="module-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
             </div>
           </div>
-
-          <div class="s-pick-check-button">
-            <div class="s-pick-check-button-ic">
+            <!--check button for apartment -->
+          <div class="module-pick-check-button">
+            <div class="module-pick-check-button-ic">
             <i class="fa fa-home" style="font-size:25px; margin-top:5px;"></i>
 
           </div>
-            <div class="s-pick-check-button-tx">
-              Apartment <div class="s-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
+            <div class="module-pick-check-button-tx">
+              Apartment <div class="module-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
             </div>
           </div>
-
-          <div class="s-pick-check-button" style="margin:0px !important">
-            <div class="s-pick-check-button-ic">
+            <!--check button for townhome -->
+          <div class="module-pick-check-button" style="margin:0px !important">
+            <div class="module-pick-check-button-ic">
             <i class="fa fa-building" style="font-size:25px; margin-top:5px;"></i>
 
           </div>
-            <div class="s-pick-check-button-tx">
-              Townhome <div class="s-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
+            <div class="module-pick-check-button-tx">
+              Townhome <div class="module-pick-check-button-chec"> <i class="fa fa-check" style="text-align:center;padding:2px;color:#fff"></i></div>
             </div>
           </div>
+            <!--end of check button container-->
         </div>
       </div>
-        <div class="s-pick">
-            <div class="s-pick-t">
-          <div class="s-pick-t-l">Price Range</div>
+        <div class="module-pick">
+            <div class="module-pick-t">
+          <div class="module-pick-t-l">Price Range</div>
           </div>
-          <div class="s-pr">
+          <div class="module-pr">
             <!--price slider -->
             <div id="sprice"></div>
-            <div class="s-pr-caret">
+            <div class="module-pr-caret">
               <i class="fa fa-caret-up"></i>
-            <div class="s-pr-av">
+            <div class="module-pr-av">
               <!-- textbox for average-->
               <input type="text" id="average" style="border:0; color:#000000; font-weight:bold; text-align:center; text-shadow: 0 0 5px rgba(0,0,0,0.2);">
 
@@ -104,27 +106,30 @@
         </div>
 
         </div>
-        <div class="s-dd">
+        <div class="module-dd">
           <!-- drop down menu container-->
-          <div class="s-dd-t">
-            <div class="s-dd-t-l">
+          <div class="module-dd-t">
+            <div class="module-dd-t-l">
               Must Haves
             </div>
-            <div class="s-dd-t-r">
+            <div class="module-dd-t-r">
               Want more Advanced Filters?
-            <span class="s-dd-t-r-bld">
+            <span class="module-dd-t-r-bld">
               Click Here
             </span>
             </div>
 
           </div>
-          <div class="s-dd-m"><div class="s-dd-m-t">Bedrooms <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
-          <div class="s-dd-m"><div class="s-dd-m-t">Bathrooms <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
-          <div class="s-dd-m"><div class="s-dd-m-t">Square Feet <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
-          <div class="s-dd-m"><div class="s-dd-m-t">Lot Size <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
+            <!--dropdown buttons -->
+          <div class="module-dd-m"><div class="s-dd-m-t">Bedrooms <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
+          <div class="module-dd-m"><div class="s-dd-m-t">Bathrooms <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
+          <div class="module-dd-m"><div class="s-dd-m-t">Square Feet <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
+          <div class="module-dd-m"><div class="s-dd-m-t">Lot Size <i class="fa fa-caret-down" style='float:right;color:#ccc;margin-right:8%'></i></div></div>
         </div>
-        <div class="s-fyh"><div class="s-fyh-t">Find Your Home  <i class="fa fa-angle-right"></i></div></div>
-        <div class="s-cs"> <div class="s-cs-t"> Clear Selection  <i class="fa fa-times"></i></div></div>
+          <!--Find your home button-->
+        <div class="module-fyh"><div class="s-fyh-t">Find Your Home  <i class="fa fa-angle-right"></i></div></div>
+          <!--Clear selection button-->
+        <div class="module-cs"> <div class="s-cs-t"> Clear Selection  <i class="fa fa-times"></i></div></div>
 
     </div>
   <!--  <button>Click Me</button>

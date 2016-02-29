@@ -18,11 +18,11 @@
           var por=$(this).find(".ui-slider-handle:last").position().left;
           var po = (pol+por)/2;
          $( "#average" ).val( "$" + ave +" "+"Average" );
-         $('.module-pr-caret').css({"position": "absolute","left": po,'display':'block'});
+         $('.module-price-caret').css({"position": "absolute","left": po,'display':'block'});
 
        }
      });
-    $('.module-pr-caret').css({'display':'none'});
+    $('.module-price-caret').css({'display':'none'});
 
 
    };
